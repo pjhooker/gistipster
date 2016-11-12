@@ -11,3 +11,8 @@
   var tile_opentopomap_attr = 'Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, '
     +'<a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> '
     +'(<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)';
+
+  var tile_hot = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
+  var tile_hot_attr = 'attribution: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, '
+    +'Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>';
+  
