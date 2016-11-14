@@ -28,3 +28,7 @@
     +'Map data: &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,'
     +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>';
 
+//DIGITAL GLOBE
+  var api_key_digitalglobe = 'pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNpbjJhaWF6dzBiZmt2b2x1cmtyMWo3OG0ifQ.kPzOKXlTUKnES9t38siT4g';
+  var tile_digitalglobe = 'http://api.tiles.mapbox.com/v4/digitalglobe.nal0g75k/{z}/{x}/{y}.png?access_token=' + api_key_digitalglobe;
+  var tile_digitalglobe_attr = '(c) <a href="http://microsites.digitalglobe.com/interactive/basemap_vivid/">DigitalGlobe</a> , (c) OpenStreetMap, (c) Mapbox';
