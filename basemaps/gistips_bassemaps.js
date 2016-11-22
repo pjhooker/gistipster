@@ -35,7 +35,7 @@
     +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>';
   var tile_tatiana_name = 'Mapbox Tatiana';
   var tile_tatiana = 'https://a.tiles.mapbox.com/v4/tatiana.cvypkqdp/{z}/{x}/{y}.vector.pbf?access_token=pk.eyJ1IjoidGF0aWFuYSIsImEiOiJjaW9nNWdjb3QwMWZ3dGJrbXkxZXJxMWl2In0.3zTvo9rLv02xq-a15-odxg';
-  var tile_spacestation_attr = 'attribution: Map tiles by <a href="https://www.mapbox.com/">MapBox</a>, '
+  var tile_tatiana_attr = 'attribution: Map tiles by <a href="https://www.mapbox.com/">MapBox</a>, '
     +'<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> <br>'
     +'Map data: &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,'
     +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>';
