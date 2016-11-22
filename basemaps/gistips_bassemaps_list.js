@@ -6,6 +6,5 @@ var data = [
   {"Tile": "tile_woodcut"},
   {"Tile": "tile_spacestation"},
   {"Tile": "tile_digitalglobe"},
-  {"Tile": "tile_runkeeper"},
-  {"Tile": "tile_tatiana"}
+  {"Tile": "tile_runkeeper"}
 ];
