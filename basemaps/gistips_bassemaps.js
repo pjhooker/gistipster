@@ -33,6 +33,12 @@
     +'<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> <br>'
     +'Map data: &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,'
     +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>';
+  var tile_wheatpaste_name = 'New Wheat Paste';
+  var tile_wheatpaste = 'http://a.tiles.mapbox.com/v3/villeda.c4c63d13/{z}/{x}/{y}.png';
+  var tile_wheatpaste_attr = 'Map tiles by <a href="https://www.mapbox.com/">MapBox</a>, '
+    +'<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data: &copy; '
+    +'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors,'
+    +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>';
 
 //DIGITAL GLOBE
   var tile_digitalglobe_name = 'Digital Globe aerial';
