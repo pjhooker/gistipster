@@ -53,7 +53,7 @@
 
 //RL
   //var tile_rl_dtm5x5_wms = 1;
-  var tile_rl_dtm5x5_name = 'DTM 5X5';
+  var tile_rl_dtm5x5_name = 'Lombardia DTM 5X5';
   var tile_rl_dtm5x5 = 'http://www.cartografia.servizirl.it/arcgis/services/wms/DTM5_RL_wms/MapServer/WMSServer';
-  var tile_rl_dtm5x5_attr = ['wms','<a href="https://www.mapbox.com/about/maps/" target="_blank">© RL © OpenStreetMap</a>','image/jpeg',45.548586,9.299469,8];
+  var tile_rl_dtm5x5_attr = ['wms','<a href="https://goo.gl/KTTuuW" target="_blank">Geoportale della Lombardia - CC-BY-NC-SA 3.0 Italia</a>','image/jpeg',45.548586,9.299469,8];
 
