@@ -50,3 +50,10 @@
   var tile_runkeeper_name = 'MapBox Runkeeper';
   var tile_runkeeper = 'http://a.tiles.mapbox.com/v4/runkeeper.4nc7syvi/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidHJpc3RlbiIsImEiOiJiUzBYOEJzIn0.VyXs9qNWgTfABLzSI3YcrQ';
   var tile_runkeeper_attr = '<a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>';
+
+//RL
+  var tile_rl_dtm5x5_wms = 1;
+  var tile_rl_dtm5x5_name = 'DTM 5X5';
+  var tile_rl_dtm5x5 = 'http://www.cartografia.servizirl.it/arcgis/services/wms/DTM5_RL_wms/MapServer/WMSServer';
+  var tile_rl_dtm5x5_attr = '<a href="https://www.mapbox.com/about/maps/" target="_blank">© RL © OpenStreetMap</a>';
+
