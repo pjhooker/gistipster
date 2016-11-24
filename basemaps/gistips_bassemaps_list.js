@@ -8,5 +8,5 @@ var data = [
   {"Tile": "tile_digitalglobe"},
   {"Tile": "tile_runkeeper"},
   {"Tile": "tile_wheatpaste"},
-  {"Tile": "rl_dtm5x5"}
+  {"Tile": "tile_rl_dtm5x5"}
 ];
