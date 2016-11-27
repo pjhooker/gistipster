@@ -67,7 +67,7 @@
   +'Geoportale della Lombardia - CC-BY-NC-SA 3.0 Italia</a>','0','image/jpeg',45.465361, 9.183910,17];
 
  var tile_simpson_name = 'Simpson\'s City';
- var tile_simpson = 'http://cityplanner/webapp/springfieldmap/{z}/{x}/{y}.png';
+ var tile_simpson = 'http://cityplanner.it/webapp/springfieldmap/{z}/{x}/{y}.png';
  var tile_simpson_attr = ['wms','Simpson','PixelArt',                
   + 'Imagery © <a href="http://www.smaxity.net/images/SpringfieldMap.jpg">smaxity.net/</a>'
   + '<br>Map data <a href="http://simpsons.playgis.com/">simpsons.playgis</a>'
