@@ -87,5 +87,9 @@
   var tile_waze = 'http://livemap-tiles4.waze.com/tiles/{z}/{x}/{y}.png';
   var tile_waze_attr = ['provider','0,0','trafic',  + '<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
 
+  var tile_hydda_roads_name = 'hydda_roads';
+  var tile_hydda_roads = 'http://{s}.tile.openstreetmap.se/hydda/roads_and_labels/{z}/{x}/{y}.png';
+  var tile_hydda_roads_attr = ['provider','World','roads',  + '<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
+
 
 
