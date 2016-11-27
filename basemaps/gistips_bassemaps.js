@@ -95,6 +95,9 @@
   var tile_osm_nolabels = 'https://tiles.wmflabs.org/osm-no-labels/12/1150/1613.png';
   var tile_osm_nolabels_attr = ['provider','World','osm,nolabel','© 2016 <a href="http://bbbike.org/">BBBike<span class="long_footer">.org</span></a> &amp; <a href="https://www.geofabrik.de/">Geofabrik<span class="long_footer"> GmbH</span></a>- <span class="long_footer">map data</span> (©) <a href="https://www.openstreetmap.org/" title="OpenStreetMap License">OpenStreetMap.org</a> <span class="long_footer">contributors</span>'];
 
-
+ var tile_ita_geo_100k_name = 'Geologia 100k'; //arta geologica d'Italia alla scala 1:500.000. La legenda è stata ricostruita a partire dalla versione cartacea. Risoluzione 1:500.000.
+ var tile_ita_geo_100k = 'http://geoservices.isprambiente.it/arcgis/services/Geologia/geologia_italia_100k/ImageServer/WMSServer?';
+ var tile_ita_geo_100k_attr = ['wms','Italia','geologia','<a href="http://wms.pcn.minambiente.it/ogc?map=/ms_ogc/WMS_v1.3/Vettoriali/Carta_geologica.map&service=wms&request=getCapabilities&version=1.3.0" target="_blank">'
+  +'Ministero dell\'Ambiente e della Tutela del Territorio e del Mare - Geoportale Nazionale</a>','geologia_italia_100k','image/jpeg',45.465361, 9.183910,13];
 
 
