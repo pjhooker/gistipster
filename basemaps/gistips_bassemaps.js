@@ -83,3 +83,9 @@
   var tile_guildwars2_attr = ['provider','0,0','games',  + '<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
 
 
+  var tile_waze_name = 'Waze';
+  var tile_waze = 'http://livemap-tiles4.waze.com/tiles/{z}/{x}/{y}.png';
+  var tile_waze_attr = ['provider','0,0','trafic',  + '<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
+
+
+
