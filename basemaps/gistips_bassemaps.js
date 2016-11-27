@@ -91,9 +91,9 @@
   var tile_hydda_roads = 'http://{s}.tile.openstreetmap.se/hydda/roads_and_labels/{z}/{x}/{y}.png';
   var tile_hydda_roads_attr = ['provider','World','roads','<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
 
-  var tile_osm_nolabel_name = 'OSM no labels';
-  var tile_osm_nolabel = 'https://tiles.wmflabs.org/osm-no-labels/12/1150/1613.png';
-  var tile_osm_nolabel_attr = ['provider','World','osm,nolabel','© 2016 <a href="http://bbbike.org/">BBBike<span class="long_footer">.org</span></a> &amp; <a href="https://www.geofabrik.de/">Geofabrik<span class="long_footer"> GmbH</span></a>- <span class="long_footer">map data</span> (©) <a href="https://www.openstreetmap.org/" title="OpenStreetMap License">OpenStreetMap.org</a> <span class="long_footer">contributors</span>'];
+  var tile_osm_nolabels_name = 'OSM no labels';
+  var tile_osm_nolabels = 'https://tiles.wmflabs.org/osm-no-labels/12/1150/1613.png';
+  var tile_osm_nolabels_attr = ['provider','World','osm,nolabel','© 2016 <a href="http://bbbike.org/">BBBike<span class="long_footer">.org</span></a> &amp; <a href="https://www.geofabrik.de/">Geofabrik<span class="long_footer"> GmbH</span></a>- <span class="long_footer">map data</span> (©) <a href="https://www.openstreetmap.org/" title="OpenStreetMap License">OpenStreetMap.org</a> <span class="long_footer">contributors</span>'];
 
 
 
