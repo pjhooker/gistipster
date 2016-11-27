@@ -80,6 +80,6 @@
 
   var tile_guildwars2_name = 'Guild Wars 2';
   var tile_guildwars2 = 'https://tiles.guildwars2.com/1/1/{z}/{x}/{y}.jpg';
-  var tile_guildwars2_attr = ['provider','0,0','games',  + '<a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>, Style: <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://www.openrailwaymap.org/">OpenRailwayMap</a> and OpenStreetMap'];
+  var tile_guildwars2_attr = ['provider','0,0','games',  + '<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
 
 
