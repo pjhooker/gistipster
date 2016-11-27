@@ -80,16 +80,21 @@
 
   var tile_guildwars2_name = 'Guild Wars 2';
   var tile_guildwars2 = 'https://tiles.guildwars2.com/1/1/{z}/{x}/{y}.jpg';
-  var tile_guildwars2_attr = ['provider','0,0','games',  + '<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
+  var tile_guildwars2_attr = ['provider','0,0','games','<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
 
 
   var tile_waze_name = 'Waze';
   var tile_waze = 'https://worldtiles3.waze.com/tiles/{z}/{x}/{y}.png';
-  var tile_waze_attr = ['provider','0,0','trafic',  + '<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
+  var tile_waze_attr = ['provider','0,0','trafic','<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
 
   var tile_hydda_roads_name = 'hydda_roads';
   var tile_hydda_roads = 'http://{s}.tile.openstreetmap.se/hydda/roads_and_labels/{z}/{x}/{y}.png';
-  var tile_hydda_roads_attr = ['provider','World','roads',  + '<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
+  var tile_hydda_roads_attr = ['provider','World','roads','<a href="https://wiki.guildwars2.com/wiki/API:Tile_service">wiki.guildwars2</a>'];
+
+  var tile_osm_nolabel_name = 'OSM no labels';
+  var tile_osm_nolabel = 'https://tiles.wmflabs.org/osm-no-labels/12/1150/1613.png';
+  var tile_osm_nolabel_attr = ['provider','World','osm,nolabel','© 2016 <a href="http://bbbike.org/">BBBike<span class="long_footer">.org</span></a> &amp; <a href="https://www.geofabrik.de/">Geofabrik<span class="long_footer"> GmbH</span></a>- <span class="long_footer">map data</span> (©) <a href="https://www.openstreetmap.org/" title="OpenStreetMap License">OpenStreetMap.org</a> <span class="long_footer">contributors</span>'];
+
 
 
 
