@@ -19,6 +19,6 @@ var data = [
   {"Tile": "tile_ita_geo_100k"},
   {"Tile": "tile_aster_gdem_srtm"},
   {"Tile": "tile_korona_adminb"},
-  {"Tile": "tile_cartodb_label"},
+  {"Tile": "tile_cartodb_labels"},
   {"Tile": "tile_stamen_labels_name"}
 ];
