@@ -114,4 +114,14 @@
     +'<a href="http://korona.geog.uni-heidelberg.de/contact.html">Department of Geography Heidelberg University, Germany</a>'
     +''];
 
+  var tile_cartodb_labels_name = 'CartoDB PositronOnlyLabels';
+  var tile_cartodb_labels = 'http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png';
+  var tile_cartodb_labels_attr = ['provider','World','label',''
+    +'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    +''];
 
+  var tile_stamen_labels_name = 'Stamen TonerLabels';
+  var tile_stamen_labels = 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner-labels/{z}/{x}/{y}.png';
+  var tile_stamen_labels_attr = ['provider','World','label',''
+    +'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    +''];
