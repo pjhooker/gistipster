@@ -13,3 +13,10 @@ Return list in #container:
         $('#container').append('tile_id: ' + val.Tile + ' | tile Name: ' + tile_name);
       });
   });
+  
+ Ispired by:
+  http://mc.bbbike.org/mc/
+  http://bestofosm.org/
+  https://leaflet-extras.github.io/leaflet-providers/preview/
+  
+And you!
