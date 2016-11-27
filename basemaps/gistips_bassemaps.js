@@ -100,4 +100,11 @@
  var tile_ita_geo_100k_attr = ['wms','Italia','geologia','<a href="http://wms.pcn.minambiente.it/ogc?map=/ms_ogc/WMS_v1.3/Vettoriali/Carta_geologica.map&service=wms&request=getCapabilities&version=1.3.0" target="_blank">'
   +'Ministero dell\'Ambiente e della Tutela del Territorio e del Mare - Geoportale Nazionale</a>','geologia_italia_100k','image/jpeg',45.465361, 9.183910,13];
 
+  var tile_aster_gdem_srtm_name = 'ASTER-GDEM-SRTM';
+  var tile_aster_gdem_srtm = 'http://korona.geog.uni-heidelberg.de/tiles/asterh/x={x}&y={y}&z={z}';
+  var tile_aster_gdem_srtm_attr = ['provider','World','dtm,rilievo,hillshade,srtm',
+    +'<a href="http://korona.geog.uni-heidelberg.de/contact.html">Department of Geography Heidelberg University, Germany</a>'
+    +''];
+
+
 
