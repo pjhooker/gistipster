@@ -13,5 +13,6 @@ var data = [
   {"Tile": "tile_simpson"},
   {"Tile": "tile_openrailway"},
   {"Tile": "tile_guildwars2"},
-  {"Tile": "tile_waze"}
+  {"Tile": "tile_waze"},
+  {"Tile": "tile_hydda_roads"}
 ];
