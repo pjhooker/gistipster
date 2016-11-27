@@ -15,5 +15,6 @@ var data = [
   {"Tile": "tile_guildwars2"},
   {"Tile": "tile_waze"},
   {"Tile": "tile_hydda_roads"},
-  {"Tile": "tile_osm_nolabels"}
+  {"Tile": "tile_osm_nolabels"},
+  {"Tile": "tile_ita_geo_100k"}
 ];
