@@ -107,5 +107,11 @@
     +'<a href="http://korona.geog.uni-heidelberg.de/contact.html">Department of Geography Heidelberg University, Germany</a>'
     +''];
 
+  var tile_korona_adminb_name = 'ASTER-GDEM-SRTM';
+  //var tile_aster_gdem_srtm = 'http://korona.geog.uni-heidelberg.de/tiles/adminb/x={x}&y={y}&z={z}';
+  var tile_korona_adminb = 'http://129.206.66.245:8007/tms_b.ashx?x={x}&y={y}&z={z}';
+  var tile_korona_adminb_attr = ['provider','World','label,admin boundaries',''
+    +'<a href="http://korona.geog.uni-heidelberg.de/contact.html">Department of Geography Heidelberg University, Germany</a>'
+    +''];
 
 
