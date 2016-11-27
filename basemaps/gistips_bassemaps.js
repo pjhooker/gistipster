@@ -73,13 +73,6 @@
   + '<br>Map data <a href="http://simpsons.playgis.com/">simpsons.playgis</a>'
   + '<br>More info at: <a href="http://www.cityplanner.it/simpsons-city-map/">CityPlanner Simpsons City Map</a>','','image/jpeg',45.465361, 9.183910,15];
 
- var tile_simpson_name = 'Simpson\'s City';
- var tile_simpson = 'http://${s}.tiles.openrailwaymap.org/${style}/${z}/${x}/${y}.png';
- var tile_simpson_attr = ['tms','Simpson','PixelArt',                
-  + 'Data <a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>, Style: <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> '
-  + '<a href="http://www.openrailwaymap.org/">OpenRailwayMap</a>'
-  + '','','image/jpeg',45.465361, 9.183910,15];
-
   var tile_openrailway_name = 'OpenRailwayMap';
   var tile_openrailway = 'http://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png';
   var tile_openrailway_attr = ['provider','World','osm,railway',  + '<a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>, Style: <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://www.openrailwaymap.org/">OpenRailwayMap</a> and OpenStreetMap'];
