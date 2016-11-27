@@ -101,7 +101,8 @@
   +'Ministero dell\'Ambiente e della Tutela del Territorio e del Mare - Geoportale Nazionale</a>','geologia_italia_100k','image/jpeg',45.465361, 9.183910,13];
 
   var tile_aster_gdem_srtm_name = 'ASTER-GDEM-SRTM';
-  var tile_aster_gdem_srtm = 'http://korona.geog.uni-heidelberg.de/tiles/asterh/x={x}&y={y}&z={z}';
+  //var tile_aster_gdem_srtm = 'http://korona.geog.uni-heidelberg.de/tiles/asterh/x={x}&y={y}&z={z}';
+  var tile_aster_gdem_srtm = 'http://129.206.66.245:8004/tms_hs.ashx?x={x}&y={y}&z={z}';
   var tile_aster_gdem_srtm_attr = ['provider','World','dtm,rilievo,hillshade,srtm',
     +'<a href="http://korona.geog.uni-heidelberg.de/contact.html">Department of Geography Heidelberg University, Germany</a>'
     +''];
