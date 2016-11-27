@@ -68,7 +68,7 @@
 
  var tile_simpson_name = 'Simpson\'s City';
  var tile_simpson = 'http://cityplanner.it/webapp/springfieldmap/{z}/{x}/{y}.png';
- var tile_simpson_attr = ['wms','Simpson','PixelArt',                
+ var tile_simpson_attr = ['tms','Simpson','PixelArt',                
   + 'Imagery © <a href="http://www.smaxity.net/images/SpringfieldMap.jpg">smaxity.net/</a>'
   + '<br>Map data <a href="http://simpsons.playgis.com/">simpsons.playgis</a>'
   + '<br>More info at: <a href="http://www.cityplanner.it/simpsons-city-map/">CityPlanner Simpsons City Map</a>','','image/jpeg',45.465361, 9.183910,17];
