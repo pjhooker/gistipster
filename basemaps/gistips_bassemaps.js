@@ -125,3 +125,10 @@
   var tile_stamen_labels_attr = ['provider','World','label',''
     +'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     +''];
+
+  var tile_stamen_toner_name = 'Stamen Toner';
+  var tile_stamen_toner = 'http://stamen-tiles-a.a.ssl.fastly.net/toner/{z}/{x}/{y}.png';
+  var tile_stamen_toner_attr = ['provider','World','toner',''
+    +'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    +''];
+
