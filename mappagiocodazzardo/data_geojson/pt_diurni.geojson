@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "markername": "CENTRO ANZIANI", "id": 1417, "address": "VIA TEVERNELLE 4, 23029 Villa di Chiavenna SO" }, "geometry": { "type": "Point", "coordinates": [ 9.48121, 46.33105 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI FONDAZIONE F.LLI PAOLO E TITO MOLINA ONLUS", "id": 783, "address": "VIALE BORRI  133, 21100 Varese VA" }, "geometry": { "type": "Point", "coordinates": [ 8.84302, 45.80041 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI VILLAGGIO AMICO", "id": 807, "address": "VIA ALLA STAZIONE  5, 21040 Gerenzano VA" }, "geometry": { "type": "Point", "coordinates": [ 9.00115, 45.64285 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI CASA DELL'OSPITALITA'", "id": 815, "address": "VIA MASPERO  20, 21100 Varese VA" }, "geometry": { "type": "Point", "coordinates": [ 8.83718, 45.81687 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI IL GIRASOLE", "id": 844, "address": "VIA G. B. CERLETTI 19, 23022 Chiavenna SO" }, "geometry": { "type": "Point", "coordinates": [ 9.40045, 46.32153 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI CASA SAN GIORGIO", "id": 1050, "address": "VIA ARDENGO VISCONTI  2, 21040 Origgio VA" }, "geometry": { "type": "Point", "coordinates": [ 9.01625, 45.59656 ] } },
+{ "type": "Feature", "properties": { "markername": "IL GIRASOLE", "id": 1208, "address": "VIA G. B. CERLETTI 19, 23022 Chiavenna SO" }, "geometry": { "type": "Point", "coordinates": [ 9.40045, 46.32153 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI MONS. GEROLAMO COMI", "id": 1217, "address": "VIA FORLANINI  6, 21016 Luino VA" }, "geometry": { "type": "Point", "coordinates": [ 8.74625, 45.99737 ] } },
+{ "type": "Feature", "properties": { "markername": "\"CDI DI BUSTO ARSIZIO", "id": 1232, "address": "VIA TASSO  58, 21052 Busto Arsizio VA" }, "geometry": { "type": "Point", "coordinates": [ 8.87094, 45.61766 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI EIN KAREM", "id": 1250, "address": "VIA GADAMES 47, 20037 Paderno Dugnano MI" }, "geometry": { "type": "Point", "coordinates": [ 9.15852, 45.55685 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI MONS. LUIGI OLGIATI", "id": 1262, "address": "BOCCACCIO  354, 20099 Sesto San Giovanni MI" }, "geometry": { "type": "Point", "coordinates": [ 9.23991, 45.54641 ] } },
+{ "type": "Feature", "properties": { "markername": "SOCIETA' DI MUTUO SOCCORSO DI MALNATE E DELL'INSUBRIA", "id": 1272, "address": "VIA I MAGGIO  10, 21046 Malnate VA" }, "geometry": { "type": "Point", "coordinates": [ 8.88172, 45.80237 ] } },
+{ "type": "Feature", "properties": { "markername": "\"CDI C\/O RSA \"CĂ D'INDUSTRIA\"", "id": 1280, "address": "VIA BRAMBILLA  61, 22100 Como CO" }, "geometry": { "type": "Point", "coordinates": [ 9.08881, 45.81264 ] } },
+{ "type": "Feature", "properties": { "markername": "\"CDI C\/O CASA DI RIPOSO RSA \"SANDRO PERTINI\"", "id": 1320, "address": "VIA PER CESATE  62, 20024 Garbagnate Milanese MI" }, "geometry": { "type": "Point", "coordinates": [ 9.07868, 45.58497 ] } },
+{ "type": "Feature", "properties": { "markername": "\"CDI \"EIN KAREM\"", "id": 1343, "address": "VIA GADAMES  47, 20037 Paderno Dugnano MI" }, "geometry": { "type": "Point", "coordinates": [ 9.15852, 45.55685 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI CITTA' DI SONDRIO", "id": 1361, "address": "VIA DON GUANELLA  36, 23100 Sondrio SO" }, "geometry": { "type": "Point", "coordinates": [ 9.86531, 46.16359 ] } },
+{ "type": "Feature", "properties": { "markername": "CA' DEL DI'", "id": 1364, "address": "VIA BOLZANO  22, 20024 Garbagnate Milanese MI" }, "geometry": { "type": "Point", "coordinates": [ 9.07026, 45.57802 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI DI CHIAVENNA", "id": 1390, "address": "VIA DON PIETRO BUZZETTI 41, 23022 Chiavenna SO" }, "geometry": { "type": "Point", "coordinates": [ 9.38666, 46.32241 ] } },
+{ "type": "Feature", "properties": { "markername": "\"CENTRO DIURNO INTEGRATO \"RUGGERO DELL'OCA\"", "id": 1406, "address": "VIA PARAVICINI 16, 23017 Morbegno SO" }, "geometry": { "type": "Point", "coordinates": [ 9.57265, 46.13383 ] } },
+{ "type": "Feature", "properties": { "markername": "CDI CITTA' DI TIRANO", "id": 1417, "address": "VIA G. BERTACCHI 6, 23037 Tirano SO" }, "geometry": { "type": "Point", "coordinates": [ 10.17083, 46.2174 ] } }
+]
+}
