@@ -6,6 +6,7 @@ var data = [
   {"Tile": "tile_woodcut"},
   {"Tile": "tile_spacestation"},
   {"Tile": "tile_digitalglobe"},
+  {"Tile": "tile_digitalglobe_s"},
   {"Tile": "tile_runkeeper"},
   {"Tile": "tile_wheatpaste"},
   {"Tile": "tile_rl_dtm5x5"},
