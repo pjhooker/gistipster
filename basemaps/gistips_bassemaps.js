@@ -50,9 +50,9 @@
   var tile_digitalglobe_attr = ['provider','World','osm,MapBox,aerial','(c) <a href="http://microsites.digitalglobe.com/interactive/basemap_vivid/">DigitalGlobe</a>'
     +', (c) OpenStreetMap, (c) Mapbox'];
 
-//DIGITAL GLOBE
-  var tile_digitalglobe_s_name = 'Digital Globe aerial';
-  var api_key_digitalglobe_s = 'pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNpbjJhaWF6dzBiZmt2b2x1cmtyMWo3OG0ifQ.kPzOKXlTUKnES9t38siT4g';
+//DIGITAL GLOBE https
+  var tile_digitalglobe_s_name = 'Digital Globe aerial (s)';
+  var api_key_digitalglobe = 'pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNpbjJhaWF6dzBiZmt2b2x1cmtyMWo3OG0ifQ.kPzOKXlTUKnES9t38siT4g';
   var tile_digitalglobe_s = 'https://api.tiles.mapbox.com/v4/digitalglobe.nal0g75k/{z}/{x}/{y}.png?access_token=' + api_key_digitalglobe;
   var tile_digitalglobe_s_attr = ['provider','World','osm,MapBox,aerial','(c) <a href="http://microsites.digitalglobe.com/interactive/basemap_vivid/">DigitalGlobe</a>'
     +', (c) OpenStreetMap, (c) Mapbox'];
