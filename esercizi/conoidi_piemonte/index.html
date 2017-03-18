@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="http://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+        <link rel="stylesheet" type="text/css" href="css/qgis2web.css">
+        <link rel="stylesheet" href="css/MarkerCluster.css" />
+        <link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+        <link rel="stylesheet" href="css/Control.OSMGeocoder.css" />
+        <link rel="stylesheet" href="css/leaflet.draw.css" />
+        <link rel="stylesheet" href="css/leaflet.measurecontrol.css" />
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="http://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+        <script src="js/leaflet-heat.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/OSMBuildings-Leaflet.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/Control.OSMGeocoder.js"></script>
+        <script src="js/leaflet.draw.js"></script>
+        <script src="js/leaflet.measurecontrol.js"></script>
+        <script src="js/leaflet.markercluster.js"></script>
+        <script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false"></script>
+
+
+        <!-- ERRORE 1
+        	Questo script non funziona più con a versione
+        	di LeafletJS 1.0 -->
+        <!--<script src="http://www.cityplanner.it/experiment_host/php/leaflet_custom_libraries/leaflet-google_fixindex.js"></script> -->
+        
+        <!-- ... ERRORE 1 
+					Come soluzione è stato creato questo nuovo
+					script che deve essere caricato al posto del precedente
+        -->
+
+        <script src='https://unpkg.com/leaflet.gridlayer.googlemutant@latest/Leaflet.GoogleMutant.js'></script>
+
+        <!-- // -->
+
+        <script src="data/ConoidiPellicepars0.js"></script>
+        <script>
+        var highlightLayer;
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+
+            if (e.target.feature.geometry.type === 'LineString') {
+              highlightLayer.setStyle({
+                color: '#ffff00',
+              });
+            } else {
+              highlightLayer.setStyle({
+                fillColor: '#ffff00',
+                fillOpacity: 1
+              });
+            }
+        }
+        L.ImageOverlay.include({
+            getBounds: function () {
+                return this._bounds;
+            }
+        });
+        var map = L.map('map', {
+            measureControl:true,
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[44.2258994555,7.36459002761],[44.2582348219,7.43246931383]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        var bounds_group = new L.featureGroup([]);
+        var basemap0 = L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>,&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+            maxZoom: 28
+        });
+        basemap0.addTo(map);
+        var basemap1 = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+            maxZoom: 28
+        });
+
+        /*
+					Conseguenza ERRORE 1
+					Di seguito la rimozione del vecchio codice
+					e l'inserimento di quello nuovo
+         */
+
+        // VECCHIO CODICE 
+	        //var googleLayer = new L.Google('HYBRID');
+		    	//map.addLayer(googleLayer);
+
+		    // NUOVO CODICE
+					var googleLayer = L.gridLayer.googleMutant({
+					    type: 'hybrid' // valid values are 'roadmap', 'satellite', 'terrain' and 'hybrid'
+					});//.addTo(map);
+
+        function setBounds() {
+        }
+        function geoJson2heat(geojson, weight) {
+          return geojson.features.map(function(feature) {
+            return [
+              feature.geometry.coordinates[1],
+              feature.geometry.coordinates[0],
+              feature.properties[weight]
+            ];
+          });
+        }
+        function pop_ConoidiPellicepars0(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    layer.setStyle(style_ConoidiPellicepars0(feature));
+
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">GID</th>\
+                        <td>' + (feature.properties['GID'] !== null ? Autolinker.link(String(feature.properties['GID'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CODICE</th>\
+                        <td>' + (feature.properties['CODICE'] !== null ? Autolinker.link(String(feature.properties['CODICE'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">TIPO</th>\
+                        <td>' + (feature.properties['TIPO'] !== null ? Autolinker.link(String(feature.properties['TIPO'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">POLIGENICO</th>\
+                        <td>' + (feature.properties['POLIGENICO'] !== null ? Autolinker.link(String(feature.properties['POLIGENICO'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">VALANGA</th>\
+                        <td>' + (feature.properties['VALANGA'] !== null ? Autolinker.link(String(feature.properties['VALANGA'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CORSOACQUA</th>\
+                        <td>' + (feature.properties['CORSOACQUA'] !== null ? Autolinker.link(String(feature.properties['CORSOACQUA'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">FONTE_NOME</th>\
+                        <td>' + (feature.properties['FONTE_NOME'] !== null ? Autolinker.link(String(feature.properties['FONTE_NOME'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">MACROBACIN</th>\
+                        <td>' + (feature.properties['MACROBACIN'] !== null ? Autolinker.link(String(feature.properties['MACROBACIN'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">SHAPE_AREA</th>\
+                        <td>' + (feature.properties['SHAPE_AREA'] !== null ? Autolinker.link(String(feature.properties['SHAPE_AREA'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">SHAPE_LEN</th>\
+                        <td>' + (feature.properties['SHAPE_LEN'] !== null ? Autolinker.link(String(feature.properties['SHAPE_LEN'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function style_ConoidiPellicepars0(feature) {
+            switch(feature.properties['POLIGENICO']) {
+                case 'Nd':
+                    return {
+                pane: 'pane_ConoidiPellicepars0',
+                opacity: 1,
+                color: 'rgba(255,244,18,0.47)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fillOpacity: 1,
+                fillColor: 'rgba(254,240,217,0.47)',
+            }
+                    break;
+                case 'Si':
+                    return {
+                pane: 'pane_ConoidiPellicepars0',
+                opacity: 1,
+                color: 'rgba(255,244,18,0.47)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fillOpacity: 1,
+                fillColor: 'rgba(252,141,89,0.47)',
+            }
+                    break;
+                case 'No':
+                    return {
+                pane: 'pane_ConoidiPellicepars0',
+                opacity: 1,
+                color: 'rgba(255,244,18,0.47)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fillOpacity: 1,
+                fillColor: 'rgba(179,0,0,0.47)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_ConoidiPellicepars0');
+        map.getPane('pane_ConoidiPellicepars0').style.zIndex = 600;
+        map.getPane('pane_ConoidiPellicepars0').style['mix-blend-mode'] = 'normal';
+    var layer_ConoidiPellicepars0 = new L.geoJson(json_ConoidiPellicepars0, {
+        attribution: '<a href=""></a>',
+        pane: 'pane_ConoidiPellicepars0',
+        onEachFeature: pop_ConoidiPellicepars0,
+        style: style_ConoidiPellicepars0
+    });
+        bounds_group.addLayer(layer_ConoidiPellicepars0);
+        map.addLayer(layer_ConoidiPellicepars0);
+        var osmGeocoder = new L.Control.OSMGeocoder({
+            collapsed: false,
+            position: 'topright',
+            text: 'Search',
+        });
+        osmGeocoder.addTo(map);
+        var baseMaps = {'Thunderforest Cycle': basemap0, 'OSM': basemap1, 'Google Hybrid': googleLayer};
+        L.control.layers(baseMaps,{'Conoidi_Pellice_pars<br /><table><tr><td style="text-align: center;"><img src="legend/ConoidiPellicepars0_Nd0.png" /></td><td>Nd</td></tr><tr><td style="text-align: center;"><img src="legend/ConoidiPellicepars0_Si1.png" /></td><td>Si</td></tr><tr><td style="text-align: center;"><img src="legend/ConoidiPellicepars0_No2.png" /></td><td>No</td></tr></table>': layer_ConoidiPellicepars0,},{collapsed:false}).addTo(map);
+        setBounds();
+        </script>
+    </body>
+</html>
