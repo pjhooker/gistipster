@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rocket",
+        "note": "prova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.179420471191406,
+          45.47987347203981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#b02828",
+        "fill-opacity": 0.5,
+        "note": "prova 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.202766418457031,
+              45.47120673790691
+            ],
+            [
+              9.234352111816406,
+              45.47120673790691
+            ],
+            [
+              9.234352111816406,
+              45.48492845141098
+            ],
+            [
+              9.202766418457031,
+              45.48492845141098
+            ],
+            [
+              9.202766418457031,
+              45.47120673790691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#14da66",
+        "stroke-width": 8,
+        "stroke-opacity": 1,
+        "note": "prova 3",
+        "marker-color": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.169120788574219,
+            45.4789105674028
+          ],
+          [
+            9.188346862792969,
+            45.463501855252474
+          ],
+          [
+            9.220962524414062,
+            45.46253867087026
+          ],
+          [
+            9.243621826171875,
+            45.47000291941435
+          ]
+        ]
+      }
+    }
+  ]
+}
