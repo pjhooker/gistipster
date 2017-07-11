@@ -139,3 +139,9 @@
     +'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     +''];
 
+  var tile_thunderforest_pioneer_name = 'Thunderforest.Pioneer';
+  var tile_thunderforest_pioneer = 'http://{s}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=db5ae1f5778a448ca662554581f283c5';
+  var tile_thunderforest_pioneer_attr = ['provider','World','toner',''
+    +'Map tiles by <a href="https://leaflet-extras.github.io/leaflet-providers/preview/#filter=Thunderforest.Pioneer">Thunderforest.Pioneer</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    +''];
+
