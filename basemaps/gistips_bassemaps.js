@@ -145,3 +145,9 @@
     +'Map tiles by <a href="https://leaflet-extras.github.io/leaflet-providers/preview/#filter=Thunderforest.Pioneer">Thunderforest.Pioneer</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     +''];
 
+  var tile_papafrancesco_name = 'papafrancesco';
+  var tile_papafrancesco = 'http://a.tiles.mapbox.com/v3/papafrancesco/cj8w4kjz08l3x2slhj8c9zmvp/{z}/{x}/{y}.png';
+  var tile_papafrancesco_attr = ['provider','World','osm,MapBox','Map tiles by <a href="https://www.mapbox.com/">MapBox</a>, '
+    +'<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data: &copy; '
+    +'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors,'
+    +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'];
