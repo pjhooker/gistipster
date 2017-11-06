@@ -22,5 +22,6 @@ var data = [
   {"Tile": "tile_korona_adminb"},
   {"Tile": "tile_cartodb_labels"},
   {"Tile": "tile_stamen_labels"},
-  {"Tile": "tile_thunderforest_pioneer"}
+  {"Tile": "tile_thunderforest_pioneer"},
+  {"Tile": "tile_papafrancesco"}
 ];
