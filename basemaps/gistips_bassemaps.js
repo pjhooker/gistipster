@@ -9,6 +9,17 @@
   var tile_carto_light = 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png';
   var tile_carto_light_attr = ['provider','World','osm,carto','&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> '
     +'&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'];
+//BASE MAPS by carto.com >> https://carto.com/location-data-services/basemaps/
+  var tile_s_carto_dark_name = 'CARTO dark';
+  var tile_s_carto_dark = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
+  var tile_s_carto_dark_attr = ['provider','World','osm,carto','&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> '
+    +'&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'];
+
+  var tile_carto_light_name = 'CARTO light';
+  //var tile_carto_light = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
+  var tile_carto_light = 'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png';
+  var tile_carto_light_attr = ['provider','World','osm,carto','&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> '
+    +'&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'];
 
 //BASE MAPS by opentopomap.org >> https://opentopomap.org/about
   var tile_opentopomap_name = 'Open Topo Map';
