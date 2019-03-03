@@ -139,6 +139,13 @@
     +'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
     +''];
 
+  var tile_cartodb_labels2_name = 'CartoDB PositronOnlyLabels';
+  var tile_cartodb_labels2 = 'https://cartodb-basemaps-c.global.ssl.fastly.net/light_only_labels/{z}/{x}/{y}.png';
+  var tile_cartodb_labels2_attr = ['provider','World','label',''
+    +'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    +''];
+
+
   var tile_stamen_labels_name = 'Stamen TonerLabels';
   var tile_stamen_labels = 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner-labels/{z}/{x}/{y}.png';
   var tile_stamen_labels_attr = ['provider','World','label',''
