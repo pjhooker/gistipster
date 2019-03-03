@@ -139,6 +139,7 @@
     +'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
     +''];
 
+  // find in: http://bl.ocks.org/HarryStevens/088792f5f9cb444bfaf7d6fc3e0e8445
   var tile_cartodb_labels2_name = 'CartoDB PositronOnlyLabels';
   var tile_cartodb_labels2 = 'https://cartodb-basemaps-c.global.ssl.fastly.net/light_only_labels/{z}/{x}/{y}.png';
   var tile_cartodb_labels2_attr = ['provider','World','label',''
