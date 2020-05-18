@@ -10,6 +10,8 @@ pointToLayer: A Function defining how GeoJSON points spawn
 Leaflet layers. It is internally called when data is added, 
 passing the GeoJSON point feature and its LatLng.
 
+[Wiki Tutorial](https://www.notion.so/cityplanner/LeafletJS-with-Google-Tag-Manager-and-more-geoJSON-points-e26b7dad00bf41ee9e2d69d7602cc747)
+
 [codepen.io/pen/YzyJdyy](https://codepen.io/pjhooker/pen/YzyJdyy)
 
 [YouTube video tutorial](https://youtu.be/TeXzuPxXrWg)
@@ -18,7 +20,7 @@ passing the GeoJSON point feature and its LatLng.
 
 [Main site](https://codepen.io/pjhooker/pen/YzyJdyy)
 
-[Wiki](https://codepen.io/pjhooker/pen/YzyJdyy)
+[Wiki notion.so](https://codepen.io/pjhooker/pen/YzyJdyy)
 
 If you are not already registered, I invite you to subscribe to my Telegram channel with QGIS, PostGIS, WebGIS Tutorial **>>**  [https://t.me/gistipsITA/](https://t.me/gistipsITA/)
 #qgis #postgis #webgis #leafletjs #tutorial
