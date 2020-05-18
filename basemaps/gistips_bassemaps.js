@@ -2,25 +2,30 @@
   var tile_carto_dark_name = 'CARTO dark';
   var tile_carto_dark = 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
   var tile_carto_dark_attr = ['provider','World','osm,carto','&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> '
-    +'&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'];
+    +'&copy; <a href="https://carto.com/attributions">CARTO</a>'];
 
   var tile_carto_light_name = 'CARTO light';
   //var tile_carto_light = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
   var tile_carto_light = 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png';
   var tile_carto_light_attr = ['provider','World','osm,carto','&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> '
-    +'&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'];
+    +'&copy; <a href="https://carto.com/attributions">CARTO</a>'];
 //BASE MAPS by carto.com >> https://carto.com/location-data-services/basemaps/
   var tile_s_carto_dark_name = 'CARTO dark';
   var tile_s_carto_dark = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
   var tile_s_carto_dark_attr = ['provider','World','osm,carto','&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> '
-    +'&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'];
+    +'&copy; <a href="https://carto.com/attributions">CARTO</a>'];
 
   var tile_carto_light_name = 'CARTO light';
   //var tile_carto_light = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
   var tile_carto_light = 'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png';
   var tile_carto_light_attr = ['provider','World','osm,carto','&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> '
-    +'&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'];
+    +'&copy; <a href="https://carto.com/attributions">CARTO</a>'];
 
+  var tile_carto_voyager_name = 'CARTO voyager';
+  var tile_carto_voyager = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png';
+  var tile_carto_voyager_attr = ['provider','World','osm,carto','&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> '
+    +'&copy; <a href="https://carto.com/attributions">CARTO</a>'];
+        
 //BASE MAPS by opentopomap.org >> https://opentopomap.org/about
   var tile_opentopomap_name = 'Open Topo Map';
   var tile_opentopomap = 'http://{s}.tile.opentopomap.org/{z}/{x}/{y}.png';
@@ -136,14 +141,14 @@
   var tile_cartodb_labels_name = 'CartoDB PositronOnlyLabels';
   var tile_cartodb_labels = 'http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png';
   var tile_cartodb_labels_attr = ['provider','World','label',''
-    +'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    +'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
     +''];
 
   // find in: http://bl.ocks.org/HarryStevens/088792f5f9cb444bfaf7d6fc3e0e8445
   var tile_cartodb_labels2_name = 'CartoDB PositronOnlyLabels';
   var tile_cartodb_labels2 = 'https://cartodb-basemaps-c.global.ssl.fastly.net/light_only_labels/{z}/{x}/{y}.png';
   var tile_cartodb_labels2_attr = ['provider','World','label',''
-    +'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    +'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
     +''];
 
 
