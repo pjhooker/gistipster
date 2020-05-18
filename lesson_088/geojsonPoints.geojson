@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brasserie Blanc",
+        "amenity": "restaurant",
+        "popupContent": "This is a \trestaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07835268974304199,
+          51.5097106970682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a bar",
+        "amenity": "bar",
+        "name": "All Bar One"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07905542850494383,
+          51.50975076165652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a cafe",
+        "amenity": "cafe",
+        "name": "Pret A Manger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07947385311126709,
+          51.50973072936676
+        ]
+      }
+    }
+  ]
+}
