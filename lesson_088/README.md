@@ -9,3 +9,7 @@ Useful for attaching events and popups to features.
 pointToLayer: A Function defining how GeoJSON points spawn 
 Leaflet layers. It is internally called when data is added, 
 passing the GeoJSON point feature and its LatLng.
+
+[codepen.io/pen/YzyJdyy](https://codepen.io/pjhooker/pen/YzyJdyy)
+
+[YouTube video tutorial](https://youtu.be/TeXzuPxXrWg)
